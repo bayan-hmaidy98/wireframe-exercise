@@ -1,0 +1,72 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    position: relative;
+}
+
+header{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    left: 40px;
+}
+nav{
+    padding: 10px;
+}
+
+nav ul{
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding-left: 70px;
+}
+.card{
+    position: absolute;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.seperate{
+    margin-right: 21px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    border: 5px red;
+    padding: 10px;
+}
+#navigation-bar{
+    margin-bottom: 30px;
+}
+section{
+    position: relative;
+}
+#left-colomn{
+    width:50%;
+    float: left;
+}
+#right-colomn{
+    width:50%;
+    float: right;
+}
